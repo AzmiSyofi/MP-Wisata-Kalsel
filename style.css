@@ -1,0 +1,38 @@
+.konten{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+text-align: center;
+}
+
+.card:hover {
+    border: 1px solid black;
+}
+
+.card-img-top {
+    padding: 10px;
+    height: 250px;
+}
+
+.img-modal {
+    padding: 10px;
+    height: 250px;
+}
+
+.content-modal {
+    margin-left: 25px;
+}
+
+.img-logo-about {
+    display: flex;
+    height: 250px;
+    justify-content:center;
+    
+}
+
+.info {
+    display: flex;
+}
