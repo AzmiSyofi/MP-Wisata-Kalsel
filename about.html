@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Wisata Kalsel | About</title>
 </head>
@@ -26,20 +28,6 @@
                     <li class="nav-item">
                     <a class="nav-link active" href="#">About</a>
                     </li>
-                    <!-- <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li> -->
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Mau ke mana, kak?" aria-label="Search">
@@ -64,31 +52,65 @@
         </nav>
 
         <!--Content-->
-        <div class="container">
+        <div>
             <img class="img-logo-about" src="assets/Contents/logo-wonderful.png" alt="logo-wonderful">
-            <h1>Wisata Kalsel</h1>
-            <p>Wisata kalsel merupakan website yang menyediakan informasi tempat-tempat wisata yang ada di provinsi Kalimantan Selatan.</p>
-
-            <h3>Kontak</h3>
-            <div class="info">
-                <svg style="padding-right: 5px" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-heart" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.76 2.76 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124c.146.277.329.556.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442c.22-.28.403-.56.55-.836L15 11.105V5.383l-3.002 1.801a2.76 2.76 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1H2Zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-                </svg>
-                <p>muhammadsyofiazmi@gmail.com</p>
-            </div>
+            <p class="content-about">
+                Pariwisata di Kalimantan Selatan termasuk sektor yang dijadikan sebagai salah satu prioritas untuk dikembangkan di Kalimantan Selatan. Kalimantan Selatan memiliki beraga m potensi wisata, mulai dari sungai, pantai, hutan, pegunungan, sampai wisata religi dengan situs-situs sejarah yang bisa dimanfaatkan sebagai tempat tujuan wisata yang menarik. Di samping itu, dengan beragam budaya daerah, Kalimantan Selatan juga sangat potensial dikembangkan sebagai tujuan wisata budaya, wisata religius, maupun wisata kuliner.
+            </p>
         </div>
         
-        <!--Footer-->
-        <br>
-        <footer class="bg-dark text-center text-white">
-
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-light text-muted">
+            <br>
+                
+            <!-- Section: Links  -->
+            <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Company name
+                    </h6>
+                    <p>
+                        Wisata kalsel merupakan website yang menyediakan informasi tempat-tempat wisata yang ada di provinsi Kalimantan Selatan.
+                    </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Banjarmasin, North 70124, IDN</p>
+                    <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    muhammadsyofiazmi@gmail.com
+                    </p>
+                    <p><i class="fas fa-phone me-3"></i> + 62 859 524 471 22</p>
+                    
+                </div>
+                <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            </section>
+            <!-- Section: Links  -->
+        
             <!-- Copyright -->
             <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright: Presented by Muhammad Syofi Azmi ~ 
-            <a href="https://dibimbing.id/home">Dibimbing.id</a>
-            </div>
-            <!-- Copyright -->
+                © 2022 Copyright:Presented by 
+                Muhammad Syofi Azmi ~ 
+                <a href="https://dibimbing.id/home">Dibimbing.id</a>
+              </div>
+              <!-- Copyright -->
         </footer>
+        <!-- Footer -->
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
