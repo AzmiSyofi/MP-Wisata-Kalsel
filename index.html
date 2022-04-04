@@ -263,6 +263,14 @@
             </div>
           </div>
 
+          <br>
+          <div>
+            <p id="halaman" style="text-align: center;">Page: 1</p>
+          </div>
+
+         
+          <button type="button" id="nextButton" onclick="myFunction()">Selanjutnya</button>
+          <br>
 
           <!--Footer-->
           <br>
@@ -318,6 +326,28 @@
           </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--DOM Manipulation-->
+    <script>
+      document.getElementById("halaman").innerHTML = "Halaman: 1";
+
+      document.getElementById("halaman").onmouseover = function() {mouseOver()};
+      document.getElementById("halaman").onmouseout = function() {mouseOut()};
+      
+      function mouseOver() {
+        document.getElementById("halaman").style.color = "blue";
+      }
+      
+      function mouseOut() {
+        document.getElementById("halaman").style.color = "black";
+      }
+
+      function myFunction() {
+        var x = document.getElementById("nextButton");
+        x.disabled = true;
+      }
+    </script>
+    
 </body>
 </html>
 
